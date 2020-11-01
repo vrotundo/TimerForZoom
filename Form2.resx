@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="richTextBox1.Text" xml:space="preserve">
-    <value>Benvenuto!! Seguono alcune istruzioni:
+    <value>Benvenuto!  Seguono alcune istruzioni:
 1) Il timer parte con 00:00
 
 2) Dal menù 'ZOOM Timer' puoi scegliere un valore in minuti di partenza; appena lo selezioni, il timer si imposta e parte.
