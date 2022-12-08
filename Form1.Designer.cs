@@ -42,6 +42,7 @@
             this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem6 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem13 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripMenuItem11 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
@@ -77,6 +78,7 @@
             this.toolStripMenuItem3,
             this.toolStripMenuItem4,
             this.toolStripMenuItem6,
+            this.toolStripMenuItem13,
             this.toolStripSeparator1,
             this.toolStripMenuItem11,
             this.toolStripSeparator2,
@@ -154,6 +156,13 @@
             this.toolStripMenuItem6.Size = new System.Drawing.Size(100, 22);
             this.toolStripMenuItem6.Text = "30";
             this.toolStripMenuItem6.Click += new System.EventHandler(this.toolStripMenuItem6_Click);
+            // 
+            // toolStripMenuItem13
+            // 
+            this.toolStripMenuItem13.Name = "toolStripMenuItem13";
+            this.toolStripMenuItem13.Size = new System.Drawing.Size(100, 22);
+            this.toolStripMenuItem13.Text = "60";
+            this.toolStripMenuItem13.Click += new System.EventHandler(this.toolStripMenuItem13_Click);
             // 
             // toolStripSeparator1
             // 
@@ -236,13 +245,14 @@
             this.txtMinutes.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtMinutes.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMinutes.ForeColor = System.Drawing.Color.White;
-            this.txtMinutes.Location = new System.Drawing.Point(84, 86);
+            this.txtMinutes.Location = new System.Drawing.Point(66, 86);
             this.txtMinutes.Margin = new System.Windows.Forms.Padding(0);
             this.txtMinutes.Name = "txtMinutes";
-            this.txtMinutes.Size = new System.Drawing.Size(43, 40);
+            this.txtMinutes.Size = new System.Drawing.Size(61, 40);
             this.txtMinutes.TabIndex = 7;
             this.txtMinutes.TabStop = false;
             this.txtMinutes.Text = "00";
+            this.txtMinutes.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtMinutes.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txtMinutes_MouseClick);
             this.txtMinutes.TextChanged += new System.EventHandler(this.txtMinutes_TextChanged);
             this.txtMinutes.Enter += new System.EventHandler(this.txtMinutes_Enter);
@@ -259,6 +269,7 @@
             this.Controls.Add(this.lblDots);
             this.Controls.Add(this.lblTimer);
             this.Controls.Add(this.menuStrip1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
@@ -295,6 +306,7 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem11;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.ToolStripMenuItem infoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem13;
     }
 }
 
